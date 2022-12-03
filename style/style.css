@@ -1,0 +1,596 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    background-color: #35B8BE;
+}
+.header1 h2{
+    margin: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.barmenu{
+    display: flex;
+}
+.aside1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 10%;
+}
+.aside1 img{
+    width: 40px;
+    height: 51px;
+}
+.aside2 ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.aside2 a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #28224B;
+}
+.aside2 a:focus{
+    color: #35B8BE;
+}
+.aside2 .fa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #35B8BE;
+    width: 55px;
+    height: 55px;
+}
+.aside2 i{
+    color: white;
+    font-size: 20px;
+}
+.badge.badge {
+    position: absolute;
+    top: 50px;
+    margin-right: -50px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: #35B8BE;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+/* სანდროს სტილი */
+
+.btfood{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #F5FBFC;
+  align-items: center;
+  text-align: center;
+
+  
+}
+.left{
+  width: 590px;
+  height: 494px;
+  left: calc(50% - 590px/2 - 295px);
+  top: calc(50% - 494px/2 - 43.1px);
+  
+  
+  
+
+  
+  
+}
+.inside{
+  margin-top: 70px;
+  display: flex;
+  
+}
+.right img{
+  
+  width: 600px;
+  height: 580px;
+  right: 0px;
+  top: calc(50% - 580px/2 - 0.1px);
+}
+
+.in1{
+  width: 100%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 1.8px;
+  color: #08090A;
+}
+.in2{
+width: 75%;
+
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.36000001430511475px;
+text-align: left;
+color: #546285;
+margin-bottom: 40px;
+}
+.in3 button{
+width: 193px;
+height: 60px;
+left: calc(50% - 193px/2 - 203.5px);
+top: 346.94px;
+margin-left: -390px;
+background-color: #35B8BE;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+color: white;
+
+}
+.in4{
+text-align: left;
+height: 57.08px;
+left: 0%;
+right: 53%;
+top: calc(50% - 57.08px/2 + 218.54px);
+font-size: 15px;
+margin-top: 15px;
+
+
+}
+.in4 img{
+  width: 80px;
+  
+}
+.in1 span{
+  color: #35B8BE;
+}
+.in4 span{
+  color: #35B8BE;
+
+}
+
+
+
+
+  .thehome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 894px;
+    background-color: #F5FBFC;
+  }
+  .thehome1{
+    width: 578px;
+    height: 614px;
+    background-image: url("/imgs/aside1bg.png");
+  }
+  .thehome1 h1{
+    font-weight: 400;
+    font-size: 50px;
+    color: #35B8BE;
+    padding-top: 80px;
+  }
+  .thehome1 p{
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .thehome1 button{
+    cursor: pointer;
+    width: 194px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #35B8BE;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+  .thehome2{
+    width: 523px;
+    height: 614px;
+  }
+
+  /* სანდროს კოდი */
+
+  .how{
+    width: 100%;
+    display: inline;
+    left: 8.33%;
+    right: 8.33%;
+    top: 1982.2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+ .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .top p {
+    font-size: 50px;
+    color: #35B8BE;
+    line-height: 55px;
+    letter-spacing: 1.65px;
+ }
+ .n1 p {
+    color: #08090A;
+    font-size: 20px;
+ }
+ .n2 p {
+    color: #08090A;
+    font-size: 20px;
+ }
+ .n3 p {
+    color: #08090A;
+    font-size: 20px;
+ }
+ .n1 span{
+    color: #546285;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+ }
+ .n2 span{
+    letter-spacing: 0.36px;
+    line-height: 27px;
+    color: #546285;
+    font-size: 18px;
+ }
+ .n3 span{
+    letter-spacing: 0.36px;
+    line-height: 27px;
+    font-size: 18px;
+    color: #546285;
+ }
+
+
+
+
+.browmen{
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image:url("/imgs/browmen.png");
+  background-repeat: no-repeat;
+}
+.browmain{
+  width: 90%;
+  padding-left: 5%;
+}
+.browmain1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.browmain1 h1{
+  color: #35B8BE;
+  font-size: 50px;
+  font-weight: 400;
+}
+.browmain1 p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.browmain1 button{
+  width: 132px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid rgb(180, 177, 177);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.browmain1 button:focus{
+  background-color: #35B8BE;
+  color: #ffffff;
+}
+.browmain2{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 530px;
+  height: 200px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card h3{
+  display: inline-block;
+  margin-top: 0;
+  font-weight: 400;
+  margin-right: 140px;
+  margin-left: 20px;
+}
+.card span{
+  color: #35B8BE;
+}
+.card p{
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #546285;
+}
+.btn1{
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: #DDDDDD;
+  border-radius: 5px;
+  border: 1px solid #b8b5b5;
+  width: 60px;
+  height: 45px;
+}
+.btn2{
+  cursor: pointer;
+  width: 115px;
+  height: 45px;
+  background-color: #35B8BE;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.browmain3{
+  width: 100%;
+  text-align: center;
+}
+.browmain3 button{
+  cursor: pointer;
+  width: 186px;
+  height: 60px;
+  color: #ffffff;
+  background-color: #35B8BE;
+  border: none;
+  border-radius: 5px;
+}
+
+/* სანდროს კოდი */
+
+.div3{
+  padding-top: 20px;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  
+  
+}
+
+.left{
+  width: 578px;
+  height: 586px;
+  left: calc(50% - 578px/2);
+  top: calc(50% - 586px/2 - 0.44px);
+}
+.right{
+  height: 585.97px;
+  left: 51.83%;
+  right: 0%;
+  top: 0px;
+  margin-top: 120px;
+}
+.right p{
+  width: 528px;
+  height: 110px;
+  top: 136px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+  color: #35B8BE;
+
+}
+.right{
+  width: 578px;
+  height: 81px;
+  top: 275px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #546285;    
+}
+.right button{
+width: 172px;
+height: 60px;
+left: 0%;
+right: 0%;
+top: 0px;
+background: #35B8BE;
+border-radius: 6px;
+border: none;
+color: white;
+cursor: pointer;
+}
+.btn{
+  margin-top: 30px;
+}
+
+/* დათოს კოდი */
+
+.callour{
+  width: 100%;
+  background-image: url("/imgs/background3.jpg");
+}
+
+.callourmain{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.callour1{
+  width: 50%;
+  padding-top: 80px;
+  background-image: url("/imgs/callourbckgtext.png");
+}
+.callour1 h2{
+  font-size: 55px;
+  color: #35B8BE;
+  font-weight: 400;
+}
+.callour1 p{
+  font-size: 18px;
+  font-weight: 400;
+}
+.callour1 button{
+  margin-top: 20px;
+  cursor: pointer;
+  width: 225px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #35B8BE;
+  color: #ffffff;
+}
+
+
+/* სანდროს კოდი */
+
+
+.div4{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  width: 100%;
+  border-radius: 0px;
+  padding-bottom: 40px;
+}
+.left1{
+  width: 550px;
+  
+}
+.left1 img{
+  width: 550px;
+  height: 500px;
+}
+.right1{
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-image: url("/imgs/IMAGE1.png");
+  height: 500px;
+}
+.p1{
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 272px;
+  
+  left: 40.09%;
+  right: 19.07%;
+  top: calc(50% - 61px/2 - 77.5px);
+  font-weight: 400;
+  font-size: 36px;
+  
+}
+.right1 button{
+  margin-left: 100px;
+  width: 162px;
+  height: 60px;
+  top: 385px;
+  left: 60px;
+  border-radius: 4px;
+  border: none;
+  color: #35B8BE;
+  cursor: pointer;
+}
+
+.footer{
+  background-image: url("/imgs/footer.jpg");
+  width: 100%;
+  height: 420px;
+  padding-top: 150px;
+}
+
+.footermain{
+  width: 80%;
+  margin-left: 10%;
+  height: 80%;
+}
+.footerup{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  border-bottom: 2px solid rgba(126, 130, 143, 0.09);;
+}
+.footerup img{
+  display: block;
+  margin-bottom: 20px;
+}
+.footerup1{
+  width: 49%;
+}
+
+.footerup2, .footerup3, .footerup4{
+  width: 17%;
+}
+.footerup2 a, .footerup3 a, .footerup4 a{
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #546285;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footerup2 p, .footerup3 p, .footerup4 p{
+  font-size: 13px;
+}
+
+.footerdown{
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+.footerdown1{
+  width: 80%;
+  padding-top: 60px
+}
+.footerdown1 a{
+  text-decoration: none;
+  color: #35B8BE;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footerdown1 span{
+  font-size: 15px;
+  font-weight: 400;
+}
+.footerdown2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.footerdown2 .fa{
+  margin-left: 20px;
+  font-size: 30px;
+  color: #E5E5E5;
+  
+}
